@@ -120,3 +120,6 @@ if ! zplug check --verbose; then
         echo; zplug install
     fi
 fi
+
+# OpenAI
+export OPENAI_API_KEY="OPENAI API KEY"
